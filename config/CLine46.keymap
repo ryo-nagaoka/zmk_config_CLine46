@@ -119,7 +119,7 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE  &trans  &trans     &kp LC(X)  &mkp MB4        &mkp MB5                                  &kp EXCLAMATION       &kp AMPERSAND          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp DEL
+&kp ESCAPE  &trans  &trans     &kp LC(X)  &mkp MB4        &mkp MB5                                  &kp EXCLAMATION       &kp AMPERSAND          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp BACKSPACE
 &trans      &trans  &kp LC(A)  &kp LC(V)  &kp LC(C)       &trans                                    &kp COLON             &kp SEMICOLON          &kp ASTERISK      &kp AT_SIGN        &kp INT_YEN    &kp LC(ENTER)
 &trans      &trans  &trans     &trans     &kp LEFT_BRACE  &kp RIGHT_BRACE                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN
             &trans  &trans     &trans     &trans          &trans           &trans    &kp PAGE_DOWN  &kp PAGE_UP                                                    &trans             &kp LG(LC(V))
