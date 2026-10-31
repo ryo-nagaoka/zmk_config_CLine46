@@ -119,10 +119,10 @@
 
         MOUSE {
             bindings = <
-&kp ESCAPE     &kp Q      &trans     &kp UP          &mkp MB4         &mkp MB5                                    &kp EXCLAMATION       &kp SEMICOLON          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp DEL
-&kp LS(LA(F))  &kp PRCNT  &kp LC(A)  &kp LC(V)       &kp LC(C)        &kp SINGLE_QUOTE                            &kp COLON             &kp AMPERSAND          &kp ASTERISK      &kp AT_SIGN        &kp INT_YEN    &kp LC(ENTER)
-&kp LCTRL      &kp LC(Z)  &trans     &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp DOUBLE_QUOTES                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN
-               &trans     &trans     &trans          &trans           &trans             &trans    &kp PAGE_DOWN  &kp PAGE_UP                                                    &trans             &kp LG(LC(V))
+&kp ESCAPE  &kp Q   &trans  &trans  &trans          &trans                                    &kp EXCLAMATION       &kp AMPERSAND          &kp UNDERSCORE    &kp HASH           &kp TILDE      &kp DEL
+&trans      &trans  &trans  &trans  &trans          &trans                                    &kp COLON             &kp SEMICOLON          &kp ASTERISK      &kp AT_SIGN        &kp INT_YEN    &kp LC(ENTER)
+&trans      &trans  &trans  &trans  &kp LEFT_BRACE  &kp RIGHT_BRACE                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN  &kp GREATER_THAN
+            &trans  &trans  &trans  &trans          &trans           &trans    &kp PAGE_DOWN  &kp PAGE_UP                                                    &trans             &kp LG(LC(V))
             >;
         };
 
