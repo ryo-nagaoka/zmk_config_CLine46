@@ -122,7 +122,7 @@
 &kp ESCAPE  &trans  &trans     &kp LC(X)  &mkp MB4   &mkp MB5                                &kp EXCLAMATION       &kp AMPERSAND          &kp UNDERSCORE    &kp HASH           &kp TILDE        &kp DELETE
 &trans      &trans  &kp LC(A)  &kp LC(V)  &kp LC(C)  &kp PAGE_UP                             &kp COLON             &kp SEMICOLON          &kp ASTERISK      &kp AT_SIGN        &kp APOS         &kp CARET
 &trans      &trans  &trans     &trans     &trans     &kp PAGE_DOWN                           &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LESS_THAN    &kp GREATER_THAN
-            &trans  &trans     &trans     &trans     &trans         &trans    &kp PAGE_DOWN  &kp PAGE_UP                                                    &kp LEFT_BRACE     &kp RIGHT_BRACE
+            &trans  &trans     &trans     &trans     &trans         &tog 7    &kp PAGE_DOWN  &kp PAGE_UP                                                    &kp LEFT_BRACE     &kp RIGHT_BRACE
             >;
         };
 
@@ -146,9 +146,9 @@
 
         SCROLL {
             bindings = <
-&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                    &trans  &trans  &trans  &trans         &trans  &trans
-&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &trans  &trans  &trans         &trans  &trans
-&trans  &trans  &trans          &trans          &trans           &trans                    &trans  &trans  &trans  &trans         &trans  &trans
+&trans  &trans  &trans          &kp UP_ARROW    &trans           &trans                    &trans  &trans  &trans  &trans         &trans          &trans
+&trans  &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans                    &trans  &trans  &trans  &trans         &trans          &trans
+&trans  &trans  &trans          &trans          &trans           &trans                    &trans  &trans  &trans  &trans         &trans          &trans
         &trans  &trans          &trans          &trans           &trans  &trans    &trans  &trans                  &kp LG(LC(V))  &studio_unlock
             >;
         };
@@ -168,6 +168,15 @@
 &trans  &trans  &trans  &trans  &trans  &trans                    &trans        &trans        &trans        &trans        &trans          &trans
 &trans  &trans  &trans  &trans  &trans  &trans                    &bootloader   &trans        &trans        &trans        &trans          &bt BT_CLR
         &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                                    &trans        &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                    &trans  &trans  &trans  &trans  &trans  &trans
+        &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans                  &trans  &trans
             >;
         };
     };
