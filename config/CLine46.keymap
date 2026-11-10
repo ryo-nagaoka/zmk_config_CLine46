@@ -138,9 +138,9 @@
         NUM {
             bindings = <
 &trans  &trans            &trans             &trans          &trans           &trans                           &kp PRCNT     &kp NUMBER_7  &kp NUMBER_8  &kp NUMBER_9  &kp EQUAL  &kp BACKSPACE
-&trans  &trans            &trans             &trans          &trans           &trans                           &kp TILDE     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp ASTRK
+&trans  &trans            &trans             &trans          &trans           &trans                           &kp TILDE     &kp NUMBER_4  &kp NUMBER_5  &kp NUMBER_6  &kp SLASH  &kp ENTER
 &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE  &kp RIGHT_BRACE  &kp PIPE                         &kp NUMBER_0  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp MINUS  &kp PLUS
-        &trans            &trans             &trans          &trans           &trans    &trans    &kp LC(ESC)  &kp DOT                                   &kp N0        &kp DOT
+        &trans            &trans             &trans          &trans           &trans    &trans    &kp LC(ESC)  &kp DOT                                   &kp ASTRK     &kp DOT
             >;
         };
 
