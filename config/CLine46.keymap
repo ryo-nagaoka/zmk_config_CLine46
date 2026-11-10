@@ -173,10 +173,10 @@
 
         layer_7 {
             bindings = <
-&trans     &trans    &trans    &kp U   &kp COMMA  &kp DOT                                 &kp F   &kp W  &kp R  &kp Y  &kp P   &kp BSPC
-&kp LSHFT  &kp E     &kp I     &kp A   &kp O      &kp MINUS                               &kp K   &kp T  &kp N  &kp S  &kp H   &kp ENTER
-&kp LCTRL  &kp Z     &kp X     &kp C   &kp V      &kp G                                   &kp G   &kp D  &kp M  &kp J  &kp B   &trans
-           &kp LGUI  &kp LALT  &trans  &mkp MB1   &rmclk 1 MB2  &lt 3 QUESTION    &trans  &trans                &kp Q  &trans
+&trans     &mo 5     &kp L     &kp U       &kp COMMA  &kp DOT                                    &kp F        &kp W  &kp R  &kp Y  &kp P   &kp BSPC
+&kp LSHFT  &kp E     &kp I     &kp A       &kp O      &kp MINUS                                  &kp K        &kp T  &kp N  &kp S  &kp H   &kp ENTER
+&kp LCTRL  &kp Z     &kp X     &kp C       &kp V      &kp G                                      &kp G        &kp D  &kp M  &kp J  &kp B   &kp RIGHT_SHIFT
+           &kp LGUI  &kp LALT  &kp ESCAPE  &mkp MB1   &rmclk 1 MB2  &lt 3 QUESTION    &lt 2 TAB  &lt 4 SPACE                &kp Q  &trans
             >;
         };
     };
